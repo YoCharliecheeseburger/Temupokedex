@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/home/charlie/Documents/spain-JS/pokedexmeow/pokedexwishversion/src/poke_assets/bg.png');
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 60px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    height: 60px;
+    width: 140px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: rgb(43, 43, 43);
+    opacity: 0.8;
+}
+
+.pokeHome button {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(169, 169, 169);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pokeHome button:hover {
+    background-color: black;
+    color: rgb(223, 223, 223);
+    opacity: 0.8;
+}
+
+.pokeHome {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pokeHomeCardLayout {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px 100px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgba(237, 241, 255, 0.73);
+}
+
+.pokeCard {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.pokeCard img {
+    background-color: rgb(224, 232, 255);
+    border-radius: 10px;
+}
+
+h5 {
+    color: #313131;
+    text-transform: none;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.pokeType {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(207, 219, 255);
+    padding: 2px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.pokeSpecs {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pokeSpecsLayout {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 50px 100px;
+    background-color: rgba(237, 241, 255, 0.73);
+}
+
+.pokeSpecsCard {
+    padding: 60px;
+}
+
+.specsTop {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+
+.pokeSpecsLayout .pokeType {
+    padding: 10px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.specsBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(224, 232, 255);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 60px 10px;
+    font-size: 1.5rem;
+}
+
+.specsBottom p {
+    margin: 0;
+}
+
+.pokeStats {
+    background-color: rgb(207, 219, 255);
+    border-radius: 25px;
+    margin-left: 30px;
+    flex: 1;
+    padding: 45px;
+}
+
+.pokeStats p {
+    font-size: 2rem;
+    margin: 8px;
+}
+
+.pokeStats h2 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.pokeSpecsLayout h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pokeSpecsCard img {
+    display: flex;
+    flex: 0.6;
+    background-color: rgb(224, 232, 255);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.footer {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+
+.footerContent {
+    padding: 50px;
+}
+
+.footerFixer {
+    background-color: clear;
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
