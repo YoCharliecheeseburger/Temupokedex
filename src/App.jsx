@@ -9,12 +9,13 @@ import PokeSpecs from './poke_pages/PokeSpecs.jsx'
 import { useFetchPokemonList } from './poke_assets/meowmeowmeow.jsx'
 
 function App() {
-  const { pokemonList, loadMorePokemon } = useFetchPokemonList();
+  const { pokemonList } = useFetchPokemonList();
+  
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<PokeHome pokemonList={pokemonList} onLoadMore={loadMorePokemon} />} />
+        <Route path='/' element={<PokeHome />} />
         <Route path='/PokeSpecs/:pokemonId' element={<PokeSpecs pokemonList={pokemonList} />} />
       </Routes>
       <Footer />
